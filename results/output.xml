@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230519 21:08:19.631" rpa="false" schemaversion="3">
+<suite id="s1" name="QA azurewebsites" source="C:\Users\Dayen\OneDrive\Área de Trabalho\Testes Automatizados\QA_azurewebsites">
+<suite id="s1-s1" name="Selecaosuspensa" source="C:\Users\Dayen\OneDrive\Área de Trabalho\Testes Automatizados\QA_azurewebsites\selecaosuspensa.robot">
+<test id="s1-s1-t1" name="abrir Site" line="20">
+<status status="FAIL" starttime="20230519 21:08:19.944" endtime="20230519 21:08:19.945">Test contains no keywords.</status>
+</test>
+<status status="FAIL" starttime="20230519 21:08:19.703" endtime="20230519 21:08:19.948"/>
+</suite>
+<status status="FAIL" starttime="20230519 21:08:19.649" endtime="20230519 21:08:19.950"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="QA azurewebsites">QA azurewebsites</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Selecaosuspensa">QA azurewebsites.Selecaosuspensa</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

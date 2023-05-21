@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230521 18:27:57.065" rpa="false" schemaversion="3">
+<suite id="s1" name="Caixaselecao" source="C:\Users\Dayen\OneDrive\Área de Trabalho\Testes Automatizados\QA_azurewebsites\caixaselecao.robot">
+<test id="s1-t1" name="1 Cenário: para pratica de seleção" line="36">
+<kw name="Abrir Site">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://itera-qa.azurewebsites.net/home/automation</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230521 18:27:57.470" level="INFO">Opening browser 'chrome' to base url 'https://itera-qa.azurewebsites.net/home/automation'.</msg>
+<status status="PASS" starttime="20230521 18:27:57.469" endtime="20230521 18:28:01.221"/>
+</kw>
+<status status="PASS" starttime="20230521 18:27:57.468" endtime="20230521 18:28:01.221"/>
+</kw>
+<kw name="Selecionar o Gênero">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>id:female</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230521 18:28:01.221" level="INFO">Clicking element 'id:female'.</msg>
+<status status="PASS" starttime="20230521 18:28:01.221" endtime="20230521 18:28:01.371"/>
+</kw>
+<status status="PASS" starttime="20230521 18:28:01.221" endtime="20230521 18:28:01.371"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230521 18:28:06.373" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230521 18:28:01.372" endtime="20230521 18:28:06.374"/>
+</kw>
+<kw name="informar melhor dia da semana">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${input_monday}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230521 18:28:06.375" level="INFO">Clicking element 'id:monday'.</msg>
+<status status="PASS" starttime="20230521 18:28:06.375" endtime="20230521 18:28:06.460"/>
+</kw>
+<status status="PASS" starttime="20230521 18:28:06.374" endtime="20230521 18:28:06.460"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230521 18:28:11.462" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20230521 18:28:06.462" endtime="20230521 18:28:11.462"/>
+</kw>
+<kw name=" fechar site">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230521 18:28:11.464" endtime="20230521 18:28:13.733"/>
+</kw>
+<status status="PASS" starttime="20230521 18:28:11.463" endtime="20230521 18:28:13.733"/>
+</kw>
+<status status="PASS" starttime="20230521 18:27:57.465" endtime="20230521 18:28:13.734"/>
+</test>
+<status status="PASS" starttime="20230521 18:27:57.067" endtime="20230521 18:28:13.739"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Caixaselecao">Caixaselecao</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
