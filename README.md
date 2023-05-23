@@ -1,4 +1,4 @@
-﻿# Teste Automatizandos com Robot
+﻿# Praticando testes Automatizados com Robot
 
 <table>
 <tr>
