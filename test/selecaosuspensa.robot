@@ -26,6 +26,7 @@ Cenário 1: Selecionar o pais de viagem
     Sleep     5s
     Selecionar Pais 
     Sleep    5s
+    Close Browser
 
 
 
