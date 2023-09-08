@@ -4,7 +4,7 @@
 <tr>
 <td>
 	
-  Projeto de teste Automatizado: Utilizando Framework Robot 
+  Projeto de Testes OrangeHRM (Sistema RH) - Robot: Utilizando Framework Robot 
 		Com foco: HTML e Robot
 	 
 
